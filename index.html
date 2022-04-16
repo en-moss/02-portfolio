@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Ian's Portfolio</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" contents="width=device=width, initial-scale=1.0"/>
+        <link rel="stylesheet" type="text/css" href="./assets/reset.css"/>
+        <link rel="stylesheet" type="text/css" href="./assets/style.css"/>
+    </head>
+
+    <body>
+            <header>
+                <ul>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact-me">contact me</a></li>
+                </ul>
+            </header>
+
+            <div class="left-bar">
+                <h1 class="left-name">ian sieg</h1>
+                <img class="headshot" src="./assets/duck.png" alt="a drawing of a duck eating a piece of bread">
+
+                <nav>
+                    <ul class="sneaky-nav">
+                        <li><a href="#about">about</a></li>
+                        <li><a href="#portfolio">portfolio</a></li>
+                        <li><a href="#contact-me">contact me</a></li>
+                    </ul>
+                </nav>
+
+                    <ul class="left-nav">
+                        <li><a href="https://github.com/en-moss" target="_blank"><img class="logo" src="./assets/github logo.png"></a></li>
+                        <li><a href="#" target="_blank"><img class="logo" src="./assets/Linkedin-logo-on-transparent-Background-PNG-.png"></a></li>
+                        <li><a href="#" target="_blank"><img class="logo" src="./assets/twitter logo.png"></a></li>
+                    </ul>
+            </div>
+
+        <main>
+            <div class="content">
+                <section>
+                    <h2 id="about">ABOUT</h2>
+                    <hr><br>
+                    <p>I'm currently living in Chicago, IL learning how to become a web developer.</p>
+                    <p>Before pursuing coding I worked as a grant writer and graphic designer at a nonprofit. I also spent some time training to be a mental health counselor but decided I enjoyed coding so much more.</p>
+                    <p>I'm looking forward to learning more about web development, specifically programming in javascript.</p>
+                </section>
+                <section>
+                    <h2 id="portfolio">PORTFOLIO</h2>
+                    <hr><br>
+                    <div class="first-proj">
+                        <h3 class="proj-headline">Horiseon Refactor</h3>
+                        <a href="https://en-moss.github.io/hw-1-refactor/"><img class="hero" src="./assets/screenshot.png" alt="a screenshot of my first project. A website with a large image of four people at a business meeting."></a>
+                        <p>This project tasked us with refactoring code to make the website more accessible. We also cleaned up redundant css classes to increase efficiency.</p>
+                    </div>
+                    <div class="other-proj">
+                        <div class="proj-order">
+                            <h3 class="proj-headline">Password Generator</h3>
+                            <a href="#"><img src="./assets/password generator.jpg" class="proj-pic" alt="an image of someone typing on a laptop with a graphic of a padlock and login form floating above the keyboard"></a>
+                            <p>For this project I will make a password generator using Javascript.</p>
+                        </div>
+                        <div class="proj-order">
+                            <h3 class="proj-headline">Weather App</h3>
+                            <a href="#"><img src="./assets/weather app.jpg" class="proj-pic" alt="an image of a weather app showing city, temperature, and forecast"></a>
+                            <p>For this project I will make a weather app using Javascript.</p>
+                        </div>
+                    </div>
+                    <div class="other-proj">
+                        <div class="proj-order">
+                            <h3 class="proj-headline">Mapping Tool</h3>
+                            <a href="#"><img src="./assets/maps.jpg" class="proj-pic" alt="an image of google maps routing to nowhere in particular"></a>
+                            <p>For this project I plan to make a mapping tool of good panaderias in Chicago.</p>
+                        </div>
+                        <div class="proj-order">
+                            <h3 class="proj-headline">Trail Planner</h3>
+                            <a href="#"><img src="./assets/trail.jpg" class="proj-pic" alt="a picture of angel's rest, in Zion national park"></a>
+                            <p>For this project I plan to make an a website to plan backpacking trips.</p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <h2 id="contact-me">CONTACT ME</h2>
+                    <hr><br>
+                    <form action="#" method="post">
+                        <ul>
+                            <li>
+                                <label for="name">Name:</label><br>
+                                <input type="text" id="name" name="user">
+                            </li>
+                            <li>
+                                <label for="email">E-mail:</label><br>
+                                <input type="email" id="email" name="user-email">
+                            </li>
+                            <li>
+                                <label for="message">Message:</label><br>
+                                <textarea id="message" name="user-message"></textarea>
+                            </li>
+                            <li class="button">
+                                <button type="submit">Send</button>
+                            </li>
+                        </ul>
+                    </form>
+                </section>
+            </div>
+        </main>
+    </body>
+</html>
