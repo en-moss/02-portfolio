@@ -6,12 +6,13 @@
         <meta name="viewport" contents="width=device=width, initial-scale=1.0"/>
         <!-- materialize css link -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <!-- aos css link -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="./assets/css/reset.css"/>
         <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
     </head>
-
     <body>
-        <nav>
+        <nav class="navbar">
             <h1 class="nav-name">ian sieg</h1>
             <img class="headshot" src="./assets/images/duck.png">
             <ul>
@@ -29,30 +30,30 @@
                 <hr><br>
                 <div class="first-proj">
                     <h3 class="proj-headline">Horiseon Refactor</h3>
-                    <a href="https://en-moss.github.io/hw-1-refactor/"><img class="hero" src="./assets/screenshot.png" alt="a screenshot of my first project. A website with a large image of four people at a business meeting."></a>
+                    <a href="https://en-moss.github.io/hw-1-refactor/"><img class="hero" src="./assets/images/screenshot.png" alt="a screenshot of my first project. A website with a large image of four people at a business meeting."></a>
                     <p>This project tasked us with refactoring code to make the website more accessible. We also cleaned up redundant css classes to increase efficiency.</p>
                 </div>
                 <div class="other-proj">
                     <div class="proj-order">
                         <h3 class="proj-headline">Password Generator</h3>
-                        <a href="#"><img src="./assets/password generator.jpg" class="proj-pic" alt="an image of someone typing on a laptop with a graphic of a padlock and login form floating above the keyboard"></a>
+                        <a href="#"><img src="./assets/images/password generator.jpg" class="proj-pic" alt="an image of someone typing on a laptop with a graphic of a padlock and login form floating above the keyboard"></a>
                         <p>For this project I will make a password generator using Javascript.</p>
                     </div>
                     <div class="proj-order">
                         <h3 class="proj-headline">Weather App</h3>
-                        <a href="#"><img src="./assets/weather app.jpg" class="proj-pic" alt="an image of a weather app showing city, temperature, and forecast"></a>
+                        <a href="#"><img src="./assets/images/weather app.jpg" class="proj-pic" alt="an image of a weather app showing city, temperature, and forecast"></a>
                         <p>For this project I will make a weather app using Javascript.</p>
                     </div>
                 </div>
                 <div class="other-proj">
-                    <div class="proj-order">
+                    <div class="proj-order" data-aos="fade-right" data-aos-duration="1500">
                         <h3 class="proj-headline">Mapping Tool</h3>
-                        <a href="#"><img src="./assets/maps.jpg" class="proj-pic" alt="an image of google maps routing to nowhere in particular"></a>
+                        <a href="#"><img src="./assets/images/maps.jpg" class="proj-pic" alt="an image of google maps routing to nowhere in particular"></a>
                         <p>For this project I plan to make a mapping tool of good panaderias in Chicago.</p>
                     </div>
-                    <div class="proj-order">
+                    <div class="proj-order" data-aos="fade-left" data-aos-duration="1500">
                         <h3 class="proj-headline">Trail Planner</h3>
-                        <a href="#"><img src="./assets/trail.jpg" class="proj-pic" alt="a picture of angel's rest, in Zion national park"></a>
+                        <a href="#"><img src="./assets/images/trail.jpg" class="proj-pic" alt="a picture of angel's rest, in Zion national park"></a>
                         <p>For this project I plan to make an a website to plan backpacking trips.</p>
                     </div>
                 </div>
@@ -82,8 +83,9 @@
             </section>
         </main>
     </body>
-
     <!-- materialize js link -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- aos link -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./assets/scripts/index.js"></script>
 </html>

@@ -6,11 +6,13 @@ body {
     color: darkslateblue;
     background-image: linear-gradient(150deg, aqua, pink);
     background-attachment: fixed;
+    display: flex;
 }
 
-nav {
+.navbar {
     position: absolute;
     left: 0;
+    background-color: rebeccapurple;
 }
 
 main {
