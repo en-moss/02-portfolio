@@ -10,79 +10,74 @@
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="./assets/css/reset.css"/>
         <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
+        <script
+            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous"></script>
     </head>
-    <body>
-        <nav class="navbar">
-            <h1 class="nav-name">ian sieg</h1>
-            <img class="headshot" src="./assets/images/duck.png">
-            <ul>
-                <li>test1</li>
-            </ul>
-        </nav>
 
-        <main class="container">
-            <section>
-                <h2 id="about">ABOUT</h2>
-                <hr><br>
-            </section>
-            <section>
-                <h2 id="portfolio">PORTFOLIO</h2>
-                <hr><br>
-                <div class="first-proj">
-                    <h3 class="proj-headline">Horiseon Refactor</h3>
-                    <a href="https://en-moss.github.io/hw-1-refactor/"><img class="hero" src="./assets/images/screenshot.png" alt="a screenshot of my first project. A website with a large image of four people at a business meeting."></a>
-                    <p>This project tasked us with refactoring code to make the website more accessible. We also cleaned up redundant css classes to increase efficiency.</p>
-                </div>
-                <div class="other-proj">
-                    <div class="proj-order">
-                        <h3 class="proj-headline">Password Generator</h3>
-                        <a href="#"><img src="./assets/images/password generator.jpg" class="proj-pic" alt="an image of someone typing on a laptop with a graphic of a padlock and login form floating above the keyboard"></a>
-                        <p>For this project I will make a password generator using Javascript.</p>
-                    </div>
-                    <div class="proj-order">
-                        <h3 class="proj-headline">Weather App</h3>
-                        <a href="#"><img src="./assets/images/weather app.jpg" class="proj-pic" alt="an image of a weather app showing city, temperature, and forecast"></a>
-                        <p>For this project I will make a weather app using Javascript.</p>
-                    </div>
-                </div>
-                <div class="other-proj">
-                    <div class="proj-order" data-aos="fade-right" data-aos-duration="1500">
-                        <h3 class="proj-headline">Mapping Tool</h3>
-                        <a href="#"><img src="./assets/images/maps.jpg" class="proj-pic" alt="an image of google maps routing to nowhere in particular"></a>
-                        <p>For this project I plan to make a mapping tool of good panaderias in Chicago.</p>
-                    </div>
-                    <div class="proj-order" data-aos="fade-left" data-aos-duration="1500">
-                        <h3 class="proj-headline">Trail Planner</h3>
-                        <a href="#"><img src="./assets/images/trail.jpg" class="proj-pic" alt="a picture of angel's rest, in Zion national park"></a>
-                        <p>For this project I plan to make an a website to plan backpacking trips.</p>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <h2 id="contact-me">CONTACT ME</h2>
-                <hr><br>
-                <form action="#" method="post">
-                    <ul>
-                        <li>
-                            <label for="name">Name:</label><br>
-                            <input type="text" id="name" name="user">
-                        </li>
-                        <li>
-                            <label for="email">E-mail:</label><br>
-                            <input type="email" id="email" name="user-email">
-                        </li>
-                        <li>
-                            <label for="message">Message:</label><br>
-                            <textarea id="message" name="user-message"></textarea>
-                        </li>
-                        <li class="button">
-                            <button type="submit">Send</button>
-                        </li>
-                    </ul>
-                </form>
-            </section>
-        </main>
+    <body>
+        <div class="row">
+            <div class="col m1">
+                <h1 class="nav-name">ian sieg</h1>
+                <img class="headshot" src="./assets/images/duck.png">
+                <ul>
+                    <li id="about-li">
+                        <a href="#about"><i id="about-icon" class="fa-solid fa-address-card"></i> ABOUT</a>
+                    </li>
+                    <li id="folio-li">
+                        <a href="#portfolio"><i id="folio-icon" class="fa-solid fa-folder"></i> PORTFOLIO</a>
+                    </li>
+                    <li id="resume-li">
+                        <a href="#resume"><i id="resume-icon" class="fa-solid fa-file"></i> RESUME</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="container">
+                <main class="col m11">
+                    <section>
+                        <h2 id="about">ABOUT</h2>
+                    </section>
+                    <section>
+                        <h2 id="portfolio">PORTFOLIO</h2>
+                        <hr><br>
+                        <div class="first-proj">
+                            <h3 class="proj-headline">Horiseon Refactor</h3>
+                            <a href="https://en-moss.github.io/hw-1-refactor/"><img class="hero" src="./assets/images/screenshot.png" alt="a screenshot of my first project. A website with a large image of four people at a business meeting."></a>
+                            <p>This project tasked us with refactoring code to make the website more accessible. We also cleaned up redundant css classes to increase efficiency.</p>
+                        </div>
+                        <div class="other-proj">
+                            <div class="proj-order">
+                                <h3 class="proj-headline">Password Generator</h3>
+                                <a href="#"><img src="./assets/images/password generator.jpg" class="proj-pic" alt="an image of someone typing on a laptop with a graphic of a padlock and login form floating above the keyboard"></a>
+                                <p>For this project I will make a password generator using Javascript.</p>
+                            </div>
+                            <div class="proj-order">
+                                <h3 class="proj-headline">Weather App</h3>
+                                <a href="#"><img src="./assets/images/weather app.jpg" class="proj-pic" alt="an image of a weather app showing city, temperature, and forecast"></a>
+                                <p>For this project I will make a weather app using Javascript.</p>
+                            </div>
+                        </div>
+                        <div class="other-proj">
+                            <div class="proj-order" data-aos="fade-right" data-aos-duration="1500">
+                                <h3 class="proj-headline">Mapping Tool</h3>
+                                <a href="#"><img src="./assets/images/maps.jpg" class="proj-pic" alt="an image of google maps routing to nowhere in particular"></a>
+                                <p>For this project I plan to make a mapping tool of good panaderias in Chicago.</p>
+                            </div>
+                            <div class="proj-order" data-aos="fade-left" data-aos-duration="1500">
+                                <h3 class="proj-headline">Trail Planner</h3>
+                                <a href="#"><img src="./assets/images/trail.jpg" class="proj-pic" alt="a picture of angel's rest, in Zion national park"></a>
+                                <p>For this project I plan to make an a website to plan backpacking trips.</p>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+            </div>
+        </div>
     </body>
+    <!-- fontawesome icons -->
+    <script src="https://kit.fontawesome.com/df32902bc7.js" crossorigin="anonymous"></script>
     <!-- materialize js link -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <!-- aos link -->
