@@ -50,8 +50,18 @@ h2:after {
     margin-top: 2rem;
 }
 
-.first-proj {
+.about-sect {
+    height: 100vh;
+}
+
+.proj-pic {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.proj-btn {
+    position: absolute;
+    bottom: 2%;
+    right: 1%;
 }
