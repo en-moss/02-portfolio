@@ -6,6 +6,8 @@
         <meta name="viewport" contents="width=device=width, initial-scale=1.0"/>
         <!-- materialize css link -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <!-- materialize icon link -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <!-- aos css link -->
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="./assets/css/reset.css"/>
@@ -18,56 +20,98 @@
 
     <body>
         <div class="row">
-            <div class="col m1 left-nav">
-                <h1 class="nav-name">ian sieg</h1>
+            <div class="col m1 left-nav hide-on-med-and-down">
+                <h1 class="nav-name center-align">ian sieg</h1>
                 <img class="headshot" src="./assets/images/duck.png">
-                <ul>
-                    <li id="about-li">
-                        <a href="#about"><i id="about-icon" class="fa-solid fa-address-card"></i> about</a>
-                    </li>
-                    <li id="folio-li">
-                        <a href="#portfolio"><i id="folio-icon" class="fa-solid fa-folder"></i> portfolio</a>
-                    </li>
-                    <li id="resume-li">
-                        <a href="#resume"><i id="resume-icon" class="fa-solid fa-file"></i> resume</a>
-                    </li>
-                </ul>
+                <div class="valign-wrapper nav-list">
+                    <ul class="left-align">
+                        <li id="about-li">
+                            <a href="#about"><i id="about-icon" class="fa-solid fa-address-card"></i> about</a>
+                        </li>
+                        <br>
+                        <li id="folio-li">
+                            <a href="#portfolio"><i id="folio-icon" class="fa-solid fa-folder"></i> portfolio</a>
+                        </li>
+                        <br>
+                        <li id="resume-li">
+                            <a href="#resume"><i id="resume-icon" class="fa-solid fa-file"></i> resume</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
 
             <div class="container">
                 <main class="col m11">
-                    <section>
+                    <section class="row">
                         <h2 id="about">ABOUT</h2>
+
                     </section>
-                    <section>
+                    <section class="row">
                         <h2 id="portfolio">PORTFOLIO</h2>
-                        <div class="first-proj">
-                            <h3 class="proj-headline">Horiseon Refactor</h3>
-                            <a href="https://en-moss.github.io/hw-1-refactor/"><img class="hero" src="./assets/images/screenshot.png" alt="a screenshot of my first project. A website with a large image of four people at a business meeting."></a>
-                            <p>This project tasked us with refactoring code to make the website more accessible. We also cleaned up redundant css classes to increase efficiency.</p>
-                        </div>
-                        <div class="other-proj">
-                            <div class="proj-order">
-                                <h3 class="proj-headline">Password Generator</h3>
-                                <a href="#"><img src="./assets/images/password generator.jpg" class="proj-pic" alt="an image of someone typing on a laptop with a graphic of a padlock and login form floating above the keyboard"></a>
-                                <p>For this project I will make a password generator using Javascript.</p>
-                            </div>
-                            <div class="proj-order">
-                                <h3 class="proj-headline">Weather App</h3>
-                                <a href="#"><img src="./assets/images/weather app.jpg" class="proj-pic" alt="an image of a weather app showing city, temperature, and forecast"></a>
-                                <p>For this project I will make a weather app using Javascript.</p>
+                        <div class="row">
+                            <div class="col s12">
+                                <div class="card">
+                                    <div class="card-image">
+                                    <img src="./assets/images/sightcity.png">
+                                    <span class="card-title">SightCity</span>
+                                    <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">link</i></a>
+                                    </div>
+                                    <div class="card-content">
+                                    <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="other-proj">
-                            <div class="proj-order" data-aos="fade-right" data-aos-duration="1500">
-                                <h3 class="proj-headline">Mapping Tool</h3>
-                                <a href="#"><img src="./assets/images/maps.jpg" class="proj-pic" alt="an image of google maps routing to nowhere in particular"></a>
-                                <p>For this project I plan to make a mapping tool of good panaderias in Chicago.</p>
+                        <div class="row">
+                            <div class="col s12 m6">
+                                <div class="card">
+                                    <div class="card-image">
+                                    <img src="./assets/images/screenshot.png">
+                                    <span class="card-title">SightCity</span>
+                                    <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">link</i></a>
+                                    </div>
+                                    <div class="card-content">
+                                    <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="proj-order" data-aos="fade-left" data-aos-duration="1500">
-                                <h3 class="proj-headline">Trail Planner</h3>
-                                <a href="#"><img src="./assets/images/trail.jpg" class="proj-pic" alt="a picture of angel's rest, in Zion national park"></a>
-                                <p>For this project I plan to make an a website to plan backpacking trips.</p>
+                            <div class="col s12 m6">
+                                <div class="card">
+                                    <div class="card-image">
+                                    <img src="./assets/images/screenshot.png">
+                                    <span class="card-title">SightCity</span>
+                                    <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">link</i></a>
+                                    </div>
+                                    <div class="card-content">
+                                    <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col s12 m6">
+                                <div class="card">
+                                    <div class="card-image">
+                                    <img src="./assets/images/screenshot.png">
+                                    <span class="card-title">SightCity</span>
+                                    <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">link</i></a>
+                                    </div>
+                                    <div class="card-content">
+                                    <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col s12 m6">
+                                <div class="card">
+                                    <div class="card-image">
+                                    <img src="./assets/images/screenshot.png">
+                                    <span class="card-title">SightCity</span>
+                                    <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">link</i></a>
+                                    </div>
+                                    <div class="card-content">
+                                    <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </section>
