@@ -32,9 +32,15 @@ h2:after {
     font-size: larger;
 }
 
-.headshot {
+/* .headshot{
+    object-fit: contain;
     width: 100%;
     height: 20%;
+} */
+
+.headshot {
+    width: 100%;
+    height:20%;
     object-fit: contain;
 }
 
